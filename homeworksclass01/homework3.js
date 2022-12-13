@@ -10,7 +10,7 @@ var taxnominal=5/100;
 
 var tax=nominal*taxnominal;
 console.log(tax);
-var price=nominal-tax;
+var price=nominal+tax;
 console.log(price);
 
 var result=phones*price
@@ -24,7 +24,7 @@ var taxnominal=parseInt(userinput2)/100;
 
 var tax=nominal*taxnominal;
 console.log(tax);
-var price=nominal-tax;
+var price=nominal+tax;
 console.log(price);
 
 var result=phones*price
