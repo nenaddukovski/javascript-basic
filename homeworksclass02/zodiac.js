@@ -54,3 +54,6 @@ alert("your chinese zodiac is Dog")
 else if(zodiac<12){
 alert("your chinese zodiac is Pig")    
 }
+else{
+alert("Something went wrong,try again")    
+}
