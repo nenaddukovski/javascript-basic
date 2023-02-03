@@ -30,7 +30,7 @@ fetch(" https://raw.githubusercontent.com/sedc-codecademy/skwd9-04-ajs/main/Samp
         console.log(FemaleWithAged24AverageGrades)
 
         let MaleonBAverageGrade2 = data.filter(x => x.gender === "Male" ).filter(x => x.averageGrade > 2)
-        .map(x => x.firstName)
+        .map(x => x.firstName).filter(x => x.startsWith("B"))
         console.log(MaleonBAverageGrade2)
 
     }).catch(function(error){
